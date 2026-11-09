@@ -1,5 +1,5 @@
 <?php
-/** Class DashboardController - ringkasan progres pengadaan (UC-11, FR-08). */
+
 class DashboardController extends Controller
 {
     public function index(): void
