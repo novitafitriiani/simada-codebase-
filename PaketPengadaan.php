@@ -23,7 +23,7 @@ class PaketPengadaan extends Model
         }, $this->allWithProgress());
     }
 
-    /** Daftar paket beserta jumlah tahap selesai dan tahap yang sedang aktif. */
+    
     public function allWithProgress(): array
     {
         return $this->db->query(
